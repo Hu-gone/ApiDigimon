@@ -1,0 +1,77 @@
+#laListaDigimon {
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+        margin: auto;
+        width: 60%;
+        border: 3px solid #73AD21;
+        padding: 10px;
+        text-align: center;
+        opacity: 0.9;
+}
+
+body {
+    background-image: url("https://images8.alphacoders.com/781/781243.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 1300px;
+  }
+
+#navbar {
+    opacity: 0.8;
+}
+
+#titulosBody {
+    color:black;
+    opacity: 0.8;
+    text-shadow: 5px 5px;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 60px;
+}
+
+.footer {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px;
+    background-color: #1c1e20;
+    opacity: 0.8;
+}
+
+
+
+#botonconsultar1 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px;
+}
+
+#botonconsultar2 {
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px;
+}
+
+
+#contenedorPadre {
+   display: grid;
+   grid-template-columns: min-content min-content min-content min-content;
+   gap: 1px;
+   background-color: #1c1e20;
+   padding: 10px;
+   opacity: 0.8;
+
+}
+  
+#contenedorPadre > div {
+   background-color: rgba(255, 255, 255, 0.8);
+   border: 1px solid black;
+   text-align: center;
+   padding: 1px 1;
+   font-size: 30px;
+   opacity: 0.8;
+
+}
